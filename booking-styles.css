@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background: rgb(182, 176, 142);
+    color:rgb(0, 0, 0);
+    overflow-y: scroll;
+}
+li{
+    display:inline-block;
+    padding: 0 50px 0 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+}
+a:where(:hover, :focus){
+    color:brown;
+}
+h1{
+    color:rgb(204, 25, 25);
+    font-size: 40px;
+}
+#size{
+    padding:10px;
+    margin-bottom: 15px;
+    border:2px solid rgb(56, 103, 131);
+}
+#location{
+    padding:10px;
+    margin-bottom: 15px;
+    border:2px solid rgb(56, 103, 131);
+}
+button{
+    margin-top:15px;
+    padding: 6px 30px;
+    color:rgb(228, 28, 28);
+    border:2px solid red;
+}
+button:where(:hover, :focus){
+    border:2px dashed rgb(255, 230, 0);
+    color: rgb(240, 220, 6);
+    background: rgb(145, 101, 101);
+}

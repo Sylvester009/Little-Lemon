@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+overflow: hidden;
+}
+div {
+  padding:50px;
+  border-radius: 10%;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: honeydew;
+  margin: 20% 0 0 15%;
+  text-shadow: 5px 5px 30px rgb(0, 102, 255);
+  animation: cycle infinite 3s ease-in-out;
+}
+@keyframes cycle {
+  0% {
+    transform: rotate(0deg);
+    background-color: rgb(223, 223, 88);
+  }
+  50% {
+    transform: rotate(180deg);
+    text-shadow: 5px 5px 30px red;
+    /*background-color: rgb(168, 160, 160);*/
+  }
+  100% {
+    transform: rotate(0deg);
+    text-shadow: 5px 5px 30px rgb(0, 252, 231);
+    background-color: rgb(194, 174, 212);
+  }
+}

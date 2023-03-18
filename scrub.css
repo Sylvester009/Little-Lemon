@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  body {
+    background-color: rgb(231, 255, 195);
+    margin: 2rem;
+    font-family: "Inter", sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 132, 0);
+    font-family: "Trirong", serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+  }
+  
+  header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  }
+  
+  footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+  }
+  
+  nav {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 225, 93);
+    font-family: "Sofia", sans-serif;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav a {
+    color: rgb(29, 101, 102);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: rgb(255, 132, 0);
+  }
+  
+  section {
+    display: flex;
+  }
+  
+  article {
+    flex: 1;
+  }
+  
+  .main-promo {
+    border-radius: 0.75rem;
+    background-color: rgba(0, 128, 0, 0.138);
+    border: 1px solid white;
+    background-image: url(./images/garden.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px #222222;
+  }
+  
+  .main-promo:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.25s;
+  }
+  
+  .main-promo p {
+    color: rgb(245, 237, 8);
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  footer {
+    display: flex;
+    background-color: rgb(8, 89, 92);
+  }
+  
+  footer div {
+    flex: 1;
+  }
+  
+  footer #copy {
+    text-align: end;
+    margin-top: auto;
+    color: white;
+    font-family: "Trirong", serif;
+  }
+  
+  .specials article {
+    border: 2px solid rgb(246, 226, 7);
+    border-radius: 1.5rem 0rem 1.5rem 0rem;
+    background-color: rgb(140, 255, 0);
+  }
+  
+  .specials article:hover {
+    background-color: rgb(184, 255, 52);
+    transform: translateY(-0.5rem);
+    transition: background-color 0.5s, transform 0.1s;
+  }
+  
+  .specials article:hover h2 {
+    color: darkgreen;
+  }
+  
+  .specials img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+  }

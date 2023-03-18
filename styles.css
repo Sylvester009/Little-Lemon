@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  background-color: #232c29;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+nav ul {
+  list-style: none;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+  padding:5px;
+}
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
+nav ul a {
+  color: #edefee;
+  text-decoration: none;
+}
+nav ul a:hover{
+    color: deepskyblue;
+}
+section {
+  display: flex;
+  gap: 20px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("http://jordanbr.pythonanywhere.com/static/restaurant/img/restaurant_inside.jpg");
+  background-size: cover;
+  background-position: 75%;
+  color: white;
+  min-height: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Markazi Text', serif;
+    letter-spacing: 2px;
+    text-align: start;
+}
+#hero p {
+    font-size: 25px;
+    margin: 0;
+    padding: 50px 30px 0px 0px;
+    text-shadow: 2px 2px 4px #333333;
+}
+h2{
+    font-size: 30px;
+    color: #333333;
+    margin: 20px 0;
+    font-family: 'Markazi Text', serif;
+    letter-spacing: 2px;
+}
+article img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+main article {
+    border: 1px solid #EDEFEE;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: antiquewhite;
+}
+article {
+  flex: 1;
+  border-radius: 10px;
+}
+article:hover{
+    box-shadow: 2px 2px 4px rgb(228, 196, 154);
+}
+p{
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+    color:blue;
+    font-size:18px;
+    cursor: pointer;
+}
+article ul {
+    list-style: none;
+    margin: 25px 0px 20px 50px;
+}
+li{
+    font-size: 18px;
+}
+footer {
+    background-color: #EDEFEE;
+    padding: 10px;
+    display: flex;
+    gap: 20px 10px;
+    margin-top: 20px;
+}
+footer img{
+    max-width: 50%;
+}
+footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    padding-top: 20px;
+}
+footer div {
+  flex: 1;
+}
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+}
